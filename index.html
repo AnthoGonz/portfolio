@@ -6,6 +6,13 @@
     <title>Anthony Gonzalez Porfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @media only screen and (max-width: 600px) {
+            #other{
+                height: 150vh !important;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #515357;">
@@ -18,11 +25,11 @@
       </div>
       <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #FDFAF8;" id="checkers">
         <div class="container h-100">
-            <div class="row d-flex align-items-center h-100">
-                <div class="col-sm">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6 col-12">
                     <img src="checkers.png" class="img-fluid">
                 </div>
-                <div class="col-sm text-end">
+                <div class="col-md-6 col-12 text-end">
                     <h1 class="py-2 display-4">Django Checkers</h1>
                     <h3 class="py-2">Checkers built on <b>Django</b>, <b>VanillaJS</b>, and <b>Bootstrap</b></h3>
                     <h5 class="py-2 lead">A fun project that required loads of JavaScript! Utiltizing the Django framework, I was able to
@@ -30,7 +37,7 @@
                         showcases full-stack development!
                     </h5>
                     <div class="d-flex justify-content-end py-2">
-                        <div class="d-flex justify-content-between" style="width:30%">
+                        <div class="w-50">
                             <a href="https://djangocheckers.onrender.com" target="_blank"><button type="button" class="btn btn-dark">Live Demo</button></a>
                             <a href="https://github.com/AnthoGonz/djangocheckers" target="_blank"><button type="button" class="btn btn-dark ">Code</button></a>
                         </div>
@@ -42,22 +49,22 @@
       </div>
       <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #515357;" id="whatsthatdog">
         <div class="container h-100">
-            <div class="row d-flex align-items-center h-100" style="color:#FDFAF8;">
-                <div class="col-sm text-start">
+            <div class="row h-100 align-items-center" style="color:#FDFAF8;">
+                <div class="col-md-6 col-12 order-md-1 order-2">
                     <h1 class="py-2 display-4">What's That Dog?</h1>
                     <h3 class="py-2">A fun guessing game built on on <b>Node.js</b>, <b>Express</b>, and <b>EJS</b></h3>
                     <h5 class="py-2 lead">Using the Dogs.API, I was able to build a simple guessing game where you must answer the question,
                         "What's That Dog?". With Node.JS making the API calls, Express pushes the data to the front-end.
                     </h5>
                     <div class="d-flex justify-content-start py-2">
-                        <div class="d-flex justify-content-between" style="width:30%">
+                        <div class="w-50">
                             <a href="https://github.com/AnthoGonz/whatsthatdog" target="_blank"><button type="button" class="btn btn-dark ">Code</button></a>
                             <a href="https://whatsthatdog.onrender.com" target="_blank"><button type="button" class="btn btn-dark">Live Demo</button></a>
                         </div>
                     </div>
                     <p class="pt-4">Next Project: <a href="#smallkidband" style="text-decoration-style: dashed; text-decoration-line: underline; color: white;"><b>Small Kid Band</b></a></p>
                 </div>
-                <div class="col-sm">
+                <div class="col-md-6 col-12 order-md-2 order-1">
                     <img src="dog.png" class="img-fluid">
                 </div>
             </div>
@@ -65,18 +72,18 @@
       </div>
       <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #FDFAF8;" id="smallkidband">
         <div class="container h-100">
-            <div class="row d-flex align-items-center h-100">
-                <div class="col-sm">
+            <div class="row align-items-center h-100">
+                <div class="col-md-6 col-12">
                     <img src="band.png" class="img-fluid">
                 </div>
-                <div class="col-sm text-end">
+                <div class="col-md-6 col-12 text-end">
                     <h1 class="py-2 display-4">Small Kid Band</h1>
                     <h3 class="py-2">A light, static website built with <b>HTML</b>, <b>VanillaJS</b>, and <b>CSS3</b></h3>
                     <h5 class="py-2 lead">Small Kid Band was my band's website that I built from scratch. Aside from the managing the website, 
                         I also managed our Entra ID for all our emails, custom groups, and file sharing.
                     </h5>
                     <div class="d-flex justify-content-end py-2">
-                        <div class="d-flex justify-content-between" style="width:30%">
+                        <div class="w-50">
                             <a href="https://small-kid-band.onrender.com" target="_blank"><button type="button" class="btn btn-dark">Live Demo</button></a>
                             <a href="https://github.com/AnthoGonz/smallkid.github.io" target="_blank"><button type="button" class="btn btn-dark ">Code</button></a>
                         </div>
@@ -87,40 +94,40 @@
         </div>
       </div>
       <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #1B1917;" id="other">
-        <div class="container h-100 w-100 d-flex align-items-center flex-column justify-content-around" style="color:#FDFAF8;">
-            <div>
-                <h2 class="text-center">Other Projects</h2>
-                <p class="text-center pt-3">These are some past projects I worked on. If you want need more details feel free to reach out!</p>
-            </div>
-            <div class="row p-5" style="color: #1B1917; background-color: #FDFAF8;">
-                <div class="col text-center">
+        <div class="container h-100" style="color:#FDFAF8;">
+            <div class="row h-100 align-items-center justify-content-center mb-5">
+                <div class="text-center">
+                    <h2 class="text-center">Other Projects</h2>
+                    <p class="text-center pt-3">These are some past projects I worked on. If you want need more details feel free to reach out!</p>
+                </div>
+                <div class="col-12 col-md-4 text-center">
                     <h2>HIDI Interface</h2>
                     <h5>05.23 - 08.23</h5>
                     <h6>Advance HOA Mangement</h6>
                     <p>An internal application used by Advance HOA Management to keep track of HOA data. The app was built entirley using the 
                         Microsoft Power Platform to allow easy intergration with Azure AD.</p>
                 </div>
-                <div class="col px-5 text-center">
+                <div class="col-12 col-md-4 px-5 text-center">
                     <h2>Tip Them App</h2>
                     <h5>11.22 - 07.23</h5>
                     <h6>Tip Them (Startup)</h6>
                     <p>An application to allow hotel guests to tip their housekeepers that was entirley built on Django and Bootstrap. 
                         Stripe was also integrated for the custom payment system. </p>
                 </div>
-                <div class="col text-center">
+                <div class="col-12 col-md-4 text-center">
                     <h2>WiFi Guest Login</h2>
                     <h5>06.22 - 08.22</h5>
                     <h6>Boot Barn Hall</h6>
                     <p>A custom script used to allow guests to join the guest wifi via a login page using their email. Using
                         JS and PHP I was able to integrate their website, the networking software (Ubiquiti), and MailChimp.</p>
                 </div>
-            </div>
-            <div>
-                <h5>Thanks for checking out my projects! Below is some of my contact info.</h5>
-                <div class="d-flex justify-content-around p-4">
-                    <p>anthonygonzalez@web.de</p>
-                    <p>+49 1516 1688947</p>
-                    <a href="www.linkedin.com/anthony-rg" style="text-decoration: none; color: #FDFAF8;">@anthony-rg   <i class="fa fa-brands fa-linkedin" style="color:#FDFAF8"></i></p>
+                <div class="text-center">
+                    <h6>Thanks for checking out my projects! Below is some of my contact info.</h6>
+                    <div class="text-center p-4 flex-wrap">
+                        <p>anthonygonzalez@web.de</p>
+                        <p>+49 1516 1688947</p>
+                        <a href="www.linkedin.com/anthony-rg" style="text-decoration: none; color: #FDFAF8;">@anthony-rg   <i class="fa fa-brands fa-linkedin" style="color:#FDFAF8"></i></p>
+                    </div>
                 </div>
             </div>
         </div>
