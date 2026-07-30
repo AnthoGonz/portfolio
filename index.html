@@ -3,27 +3,51 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Anthony Gonzalez Portfolio</title>
+    <title>Peak Range Media</title>
+    <link rel="icon" type="image/x-icon" href="img/Logo-1.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <style>
         @media only screen and (max-width: 600px) {
             .jumbotron{
                 height: 130vh !important;
             }
 
-            #other{
+            #other, #services{
                 height: 150vh !important;
             }
         }
+
+        body, html, *{
+                font-family: "Montserrat", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+            }
     </style>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #515357;">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background: #515357;">
+    <button class="navbar-toggler mx-auto text-center align-items-center" style="height: 5vh; border:none;" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list text-center"style="color:#FDFAF8; text-align: center; font-size: 1.5em;"></i>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup" >
+        <div class="navbar-nav text-center">
+            <a class="nav-item nav-link p-3" href="#"style="color:#FDFAF8">PROJECTS</a>
+            <a class="nav-item nav-link p-3 fw-bold" href="#" style="color:#FDFAF8">CONTACT</a>
+            <a class="nav-item nav-link p-3" href="#" style="color:#FDFAF8">SERVICES</a>
+        </div>
+    </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid" style="height: 100vh; background: #515357; z-index:1;">
         <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
-        <img src="img/profile.png" class="img-thumbnail rounded-circle my-4" alt="img" style="height:30%;">
-          <h1 class="display-4 py-4" style="color: #FDFAF8">Hi, I'm Anthony</h1>
-          <p class="lead py-4" style="color: #FDFAF8">These are some recent projects I built</p>
+        <img src="img/Logo-1.png" class="" alt="img" style="height:30%;">
+          <h1 class="display-4 py-4" style="color: #FDFAF8">PEAK RANGE MEDIA</h1>
+          <p class="lead py-4" style="color: #FDFAF8">these are some projects we built</p>
           <a href="#checkers"><i class="fa fa-chevron-down fa-2x" style="color: #FDFAF8;"></i></a>
         </div>
       </div>
@@ -53,7 +77,7 @@
             <div class="row h-100 align-items-center" style="color:#FDFAF8;">
                 <div class="col-md-6 col-12 order-md-1 order-2">
                     <h1 class="py-2 display-4">Brickhouse Alpine Kitchen</h1>
-                    <h3 class="py-2">An efficient websit built on <b>WordPress</b></h3>
+                    <h3 class="py-2">An efficient website built on <b>WordPress</b></h3>
                     <h5 class="py-2 lead">Built for displaying menus and ordering food, this website has already driven thousands of click daily.
                     </h5>
                     <div class="d-flex justify-content-start py-2">
@@ -97,11 +121,11 @@
                 <div class="col-md-6 col-12 order-md-1 order-2">
                     <h1 class="py-2 display-4">The Bunker</h1>
                     <h3 class="py-2">A simple landing page built on <b>WordPress</b></h3>
-                    <h5 class="py-2 lead">This website was designed around a fun video landing page, with the purpose of selling gym passes and memberships.
+                    <h5 class="py-2 lead">This website was designed around a custom video landing page, with the purpose of selling gym passes and memberships.
                     </h5>
                     <div class="d-flex justify-content-start py-2">
                         <div class="w-50">
-                            <a href="https://thebunkergym.com" target="_blank"><button type="button" class="btn btn-dark">Live</button></a>
+                            <a href="https://thebunkergymkc.com" target="_blank"><button type="button" class="btn btn-dark">Live</button></a>
                         </div>
                     </div>
                     <p class="pt-4">Next Project: <a href="#sambass" style="text-decoration-style: dashed; text-decoration-line: underline; color: white;"><b>Sam Bass Trio</b></a></p>
@@ -120,8 +144,8 @@
                 </div>
                 <div class="col-md-6 col-12 text-end">
                     <h1 class="py-2 display-4">Sam Bass Trio</h1>
-                    <h3 class="py-2">Built on <b>WordPress</b> for my band</h3>
-                    <h5 class="py-2 lead">Built for my band, this website is built to share directly, rather than drive traffic, with a purpose sharing videos and show information for fans.
+                    <h3 class="py-2">Built on <b>WordPress</b> for a band</h3>
+                    <h5 class="py-2 lead">Rather than drive traffic, this website is designed to be shared directly, with a purpose of sharing content and show information for venues and fans. 
                     </h5>
                     <div class="d-flex justify-content-end py-2">
                         <div class="w-50">
@@ -138,7 +162,6 @@
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="text-center pt-3">
                     <h2 class="text-center">Other Projects</h2>
-                    <p class="text-center pt-3">These are some past projects I worked on. If you want need more details feel free to reach out!</p>
                 </div>
                 <div class="col-12 col-md-4 text-center">
                     <h2>HIDI Interface</h2>
@@ -161,14 +184,62 @@
                     <p>A custom script used to get the property infromation via Streamline's API based on the URL. The website was built on WordPress, so I used JS and PHP to get the unique property ID from the API.</p>
                 </div>
                 <div class="text-center">
-                    <h6>Thanks for checking out my projects! Below is some of my contact info.</h6>
-                    <div class="text-center flex-wrap">
-                        <p>anthonygonzalez8102@gmail.com</p>
-                        <a href="www.linkedin.com/anthony-rg" style="text-decoration: none; color: #FDFAF8;">@anthony-rg   <i class="fa fa-brands fa-linkedin" style="color:#FDFAF8"></i></p>
-                    </div>
+                    <h6>For more information on our past projects, please contact us below.</h6>
                 </div>
             </div>
     
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid" id="services" style="height: 100vh; background: #FDFAF8;" id="checkers">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="text-center pt-3">
+                    <h2 class="text-center">SERVICES</h2>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <i class="bi bi-list text-center"style="text-align: center; font-size: 3em;"></i>
+                    <h2>Site Management</h2>
+                    <h5 class="py-3">at <b>$50</b>/mo*</h5>
+                    <h6 class="lh-2">Let us manage your website. From SEO optimization to site hosting, we manage all aspects of your website, making sure your website is driving traffic and up to date. </h6>
+                </div>
+                <div class="col-12 col-md-4 px-5 text-center">
+                    <i class="bi bi-list text-center"style="text-align: center; font-size: 3em;"></i>
+                    <h2>Custom Design</h2>
+                    <h5 class="py-3">at <b>$150</b>/mo*</h5>
+                    <h6 class="lh-2">A beautiful design is the first step of any great website. All of our UX and design is custom made without the use of AI.</h6>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <i class="bi bi-list text-center" style="text-align: center; font-size: 3em;"></i>
+                    <h2>Site Development</h2>
+                    <h5 class="py-3">at <b>$350</b>/mo*</h5>
+                    <h6 class="lh-2">We get your website up and running. With a ride range of options, from simple WordPress sites to custom web applications, we develop everything. </h6>
+                </div>
+                <div class="text-center">
+                    <h5>Site management includes 15% off developmenet and design.</h5>
+                    <h6 class="py-2">*Prices shown are the starting rates. This rate includes a 1-page landing site with up to 5 sections.</h6>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="jumbotron jumbotron-fluid" id="contact" style="height: 100vh; background: #515357;" id="bunker">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center" style="color:#FDFAF8;">
+                <div class="text-center pt-3">
+                    <h2 class="text-center">CONTACT</h2>
+                </div>
+                <div class="text-center">
+                    <h3 class="py-3">let's create something beautiful</h3>
+                    <h6 class="py-1">send us an email</h6>
+                    <h5 class="py-1">info@peakrangemedia.com</h5>
+                    <h6 class="py-3">or</h5>
+                    <h6 class="py-1">connect with us on Facebook</h6>
+                    <a class="py-1" href="#" style="text-decoration: none; color:#FDFAF8;"><i class="bi bi-facebook" style="font-size: 3em;"></i></a>
+                </div>
+                <div class="text-center pt-3">
+                    <img src="img/Logo-1.png" class="" alt="img" style="height:75px;">
+                    <h2 class="text-center">PEAK RANGE MEDIA</h2>
+                </div>
+            </div>
         </div>
       </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
