@@ -20,6 +20,18 @@
             #other, #services{
                 height: 150vh !important;
             }
+
+            #contact{
+                height:115vh !important;
+            }
+
+            #bottom-nav{
+                flex-direction: column;
+            }
+
+            .services-line{
+                display: block !important;
+            }
         }
 
         body, html, *{
@@ -102,7 +114,7 @@
                 <div class="col-md-6 col-12 text-end">
                     <h1 class="py-2 display-4">Clover API Plugin</h1>
                     <h3 class="py-2">A custom plugin built with <b>PHP</b>, <b>VanillaJS</b>, and <b>WordPress</b></h3>
-                    <h5 class="py-2 lead">Midwest Tile needed to integrate Clover's POS into their WordPress website in order to take credid card payments. Using Clover's REST API, I was able to develop a custom, secure payment solution.
+                    <h5 class="py-2 lead">Midwest Tile needed to integrate Clover's POS into their WordPress website in order to take credid card payments. Using Clover's REST API, we built a custom, secure payment solution.
                     </h5>
                     <div class="d-flex justify-content-end py-2">
                         <div class="w-50">
@@ -196,25 +208,28 @@
                 <div class="text-center pt-3">
                     <h2 class="text-center">SERVICES</h2>
                 </div>
+
                 <div class="col-12 col-md-4 text-center">
                     <i class="bi bi-database text-center"style="text-align: center; font-size: 3em;"></i>
                     <h2>Site Management</h2>
                     <h5 class="py-3">at <b>$50</b>/mo*</h5>
-                    <h6 class="lh-2 w-75 mx-auto">Let us manage your website. From SEO optimization to site hosting, we manage all aspects of your website, making sure your website is driving traffic and up to date. </h6>
+                    <h6 class="lh-2 w-75 mx-auto" style="line-height: 3vh;">Let us manage your website. From SEO optimization to site hosting, we manage all aspects of your website, making sure your website is driving traffic and up to date. </h6>
                 </div>
+
                 <div class="col-12 col-md-4 px-5 text-center">
                     <i class="bi bi-claude text-center"style="text-align: center; font-size: 3em;"></i>
                     <h2>Custom Design</h2>
                     <h5 class="py-3">at <b>$150</b>/mo*</h5>
-                    <h6 class="lh-2 w-75 mx-auto">A beautiful design is the first step of any great website. All of our UX and design is custom made without the use of AI.</h6>
+                    <h6 class="lh-2 w-75 mx-auto" style="line-height: 3vh;">A beautiful design is the first step of any great website. All of our UX and design is custom, made without the use of AI.</h6>
                 </div>
+
                 <div class="col-12 col-md-4 text-center">
                     <i class="bi bi-code-slash text-center" style="text-align: center; font-size: 3em;"></i>
                     <h2>Site Development</h2>
                     <h5 class="py-3">at <b>$350</b>/mo*</h5>
-                    <h6 class="lh-2 w-75 mx-auto">We get your website up and running. With a ride range of options, from simple WordPress sites to custom web applications, we develop everything. </h6>
+                    <h6 class="lh-2 w-75 mx-auto" style="line-height: 3vh;">We get your website up and running. With a ride range of options, from simple a WordPress sites to custom web applications, we develop everything. </h6>
                 </div>
-                <hr/>
+                <hr class="w-50 mx-auto"/>
                 <div class="text-center">
                     <h5>Site management includes 15% off developmenet and design.</h5>
                     <h6 class="py-2">*Prices shown are the starting rates. This rate includes a 1-page landing site with up to 5 sections.</h6>
@@ -222,22 +237,29 @@
             </div>
         </div>
       </div>
-      <div class="jumbotron jumbotron-fluid" id="contact" style="height: 100vh; background: #515357;" id="bunker">
+      <div class="jumbotron jumbotron-fluid" id="contact" style="height: 95vh; background: #515357;" id="bunker">
         <div class="container h-100">
             <div class="row h-100 align-items-center" style="color:#FDFAF8;">
                 <div class="text-center pt-3">
                     <h2 class="text-center">CONTACT</h2>
                 </div>
+                <hr class="w-50 mx-auto"/>
                 <div class="text-center">
                     <h6 class="py-1">send us an email</h6>
                     <h5 class="py-1">info@peakrangemedia.com</h5>
-                    <h6 class="py-3">or</h5>
+                    <!--<h6 class="py-3">or</h5>
                     <h6 class="py-1">connect with us on Facebook</h6>
-                    <a class="py-1" href="#" style="text-decoration: none; color:#FDFAF8;"><i class="bi bi-facebook" style="font-size: 3em;"></i></a>
+                    <a class="py-1" href="#" style="text-decoration: none; color:#FDFAF8;"><i class="bi bi-facebook" style="font-size: 3em;"></i></a>-->
                 </div>
-                <div class="text-center pt-3">
+                <hr class="w-50 mx-auto"/>
+                <div class="text-center mb-3">
                     <img src="img/Logo-1.png" class="" alt="img" style="height:75px;">
-                    <h2 class="text-center">PEAK RANGE MEDIA</h2>
+                    <h2 class="text-center pb-3">PEAK RANGE MEDIA</h2>
+                    <div class="d-flex justify-content-around w-50 mx-auto" id="bottom-nav">
+                        <a href="#portfolio" style="color:#FDFAF8; text-decoration: none;">PROJECTS</a>
+                        <a href="/" style="color:#FDFAF8; text-decoration: none;">HOME</a>
+                        <a href="#services" style="color:#FDFAF8; text-decoration: none;">SERVICES</a>
+                    </div>
                 </div>
             </div>
         </div>
